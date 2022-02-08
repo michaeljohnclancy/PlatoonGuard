@@ -25,7 +25,7 @@ const signMessage = async (account, message) => {
                 version: '0',
             },
             message: {
-                contents: message,
+                contents: message.value,
                 timestamp: Math.floor(Date.now() / 1000)
             },
 

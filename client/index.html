@@ -7,11 +7,18 @@
 </head>
 <body>
 <div>
-  <h3>Sign Typed Data V4</h3>
-  Message: <textarea id="message"></textarea>
-  <button type="button" id="signButton">Sign</button>
   <div>Account: <span id="accountText"></span></div>
+  <h3>Sign</h3>
+  Message: <textarea id="signMessage"></textarea>
+  <button type="button" id="signButton">Sign</button>
   <div>Signature: <span id="signature"></span></div>
+</div>
+<div>
+  <h3>Verify</h3>
+  Message: <textarea id="verifyMessage"></textarea>
+  Signature: <textarea id="verifySignature"></textarea>
+  <button type="button" id="verifyButton">Sign</button>
+  <div>Signed By: <span id="signedBy"></span></div>
 </div>
 
 <script type="text/javascript" src="src/utils.js"></script>
